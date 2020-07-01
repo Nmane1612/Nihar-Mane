@@ -1,7 +1,7 @@
 from tkinter import *
 root=Tk()
 
-root.title("Anuja's 1st window")
+root.title("1st window")
 root.geometry("800x1200+200+100")
 #root.mainloop()
 
@@ -23,8 +23,8 @@ c.create_arc(75,125,125,175,start=210,extent=120, outline='HotPink4',width=2,sty
 f=("Helvetica",20,'bold italic underline')
 c.create_text(100,275,font=f, text='WOW', fill='yellow', activefill='IndianRed2')
 
-file1=PhotoImage(file="gorilla.gif")
-file2=PhotoImage(file="simba.gif")
+file1=PhotoImage(file="Enter your file")
+file2=PhotoImage(file="Enter your file")
 c.create_image(450,300,anchor=CENTER, image=file1,activeimage=file2)
 
 root.mainloop()
