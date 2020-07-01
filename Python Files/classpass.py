@@ -7,5 +7,5 @@ class Employee:
                         e.name="python"
                         print(e.name)
 
-a=Bank("Anuja")
+a=Bank("name")
 Employee. mymethod(a)
