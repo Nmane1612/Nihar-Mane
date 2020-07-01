@@ -15,7 +15,7 @@ class Student(Teacher):
         return self.marks
 
 s=Student()
-s.setname("Anuja")
+s.setname("name")
 s.setmarks(100)
 print("Hello {}, You have got {} marks".format(s.name,s.getmarks()))
         
