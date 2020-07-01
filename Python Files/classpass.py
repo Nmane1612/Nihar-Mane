@@ -4,7 +4,7 @@ class Bank:
 class Employee:
 	@staticmethod
 	def mymethod(e):
-                        e.name="python"
+                        e.name="Name"
                         print(e.name)
 
 a=Bank("name")
