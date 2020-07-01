@@ -1,6 +1,6 @@
 class abc:
         def __init__(self):
-            self.name="Anuja"
+            self.name="name"
             self.change()
 
         def change(self):
