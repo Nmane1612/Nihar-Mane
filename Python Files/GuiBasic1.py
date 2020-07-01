@@ -28,5 +28,3 @@ file2=PhotoImage(file="Enter your file")
 c.create_image(450,300,anchor=CENTER, image=file1,activeimage=file2)
 
 root.mainloop()
-
-
