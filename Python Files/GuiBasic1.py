@@ -1,7 +1,7 @@
 from tkinter import *
 root=Tk()
 
-root.title("1st window")
+root.title("1st Window")
 root.geometry("800x1200+200+100")
 #root.mainloop()
 
