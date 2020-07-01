@@ -15,8 +15,8 @@ class Student(Teacher):
         self.marks=mob
     def getmarks(self):
         return self.marks
-p=Teacher("VIT")
-s=Student("Anuja")
+p=Teacher("abc")
+s=Student("xyz")
 s.setmarks(100)
 print("Hello {}, You have got {} marks".format(p.getname(),p.getsalary()))
 print("Hello {}, You have got {} marks".format(s.getname(),s.getmarks()))
