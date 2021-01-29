@@ -23,4 +23,3 @@ class SubCipher
 		System.out.println();
 	}
 }
-
